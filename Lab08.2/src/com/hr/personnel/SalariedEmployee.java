@@ -28,7 +28,7 @@ public class SalariedEmployee extends Employee {
   public void pay() {
     System.out.println(getName() + " is paid salary " + getSalary());
   }
-
+// Only Salaried employees take vacation//
   public void takeVacation() {
     System.out.println(getName() + " is on vacation");
   }
