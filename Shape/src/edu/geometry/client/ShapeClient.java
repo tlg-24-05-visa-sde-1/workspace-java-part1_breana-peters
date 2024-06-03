@@ -15,8 +15,14 @@ public class ShapeClient {
         System.out.println("Circle area: " + circle.getArea());
         System.out.println();
 
+        System.out.println("Circle perimeter:" + circle.getPerimeter());
+        System.out.println();
+
         Rectangle rectangle = new Rectangle(8.0, 10.0);
         System.out.println("Rectangle area: " + rectangle.getArea());
+        System.out.println();
+
+        System.out.println("Rectangle perimeter:" + rectangle.getPerimeter());
         System.out.println();
 
         Triangle triangle = new Triangle(2.0, 3.0, 30.0);

@@ -1,6 +1,6 @@
 package edu.geometry;
 
-public class Rectangle implements Shape {
+public class Rectangle implements Shape {  // made the class public, Rectangle Is-A shape decleared two instance variable length and width
     private final double width;
     private final double length;
 
@@ -20,5 +20,9 @@ public class Rectangle implements Shape {
 
     public double getLength() {
         return length;
+    }
+
+    public double getPerimeter(){
+        return 2* (width + length);
     }
 }
