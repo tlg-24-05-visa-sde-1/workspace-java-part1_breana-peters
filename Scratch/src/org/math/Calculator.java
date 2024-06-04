@@ -6,7 +6,31 @@ package org.math;
  * etc.
  */
 
+import java.util.List;
+
 class Calculator {
+
+ public static int findMin(List<Integer>values) {
+//pretend it was 5, 7, 1
+
+   int smallest;
+   for (Integer value :values){
+     smallest = value; // this is the first one
+     int smallest = values.get(0);
+     if (value < smallest){
+       smallest = value;
+     }
+   }
+   return result;
+
+ }
+
+
+
+
+
+
+
 
   /*
    * This method returns the average of the supplied integers.
